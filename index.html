@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Star Aesthetic </title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
     <style>
         :root {
             --primary: #6366f1;
@@ -414,6 +416,11 @@
             transform: translateY(-3px);
         }
 
+        .social-links a:nth-child(1):hover { background-color: #1877f2; }
+        .social-links a:nth-child(2):hover { background-color: #25d366; }
+        .social-links a:nth-child(3):hover { background-color: #e4405f; }
+        .social-links a:nth-child(4):hover { background-color: #000000; }
+
         .copyright {
             text-align: center;
             padding-top: 30px;
@@ -421,39 +428,7 @@
             color: var(--gray);
             font-size: 0.9rem;
         }
-
-        /* Visitor Info Banner */
-        .visitor-banner {
-            position: fixed;
-            top: 100px;
-            right: 20px;
-            background: var(--accent);
-            color: white;
-            padding: 15px 25px;
-            border-radius: var(--radius);
-            box-shadow: var(--shadow);
-            z-index: 1001;
-            animation: slideIn 0.5s ease;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            max-width: 300px;
-        }
-
-        .visitor-banner i {
-            font-size: 20px;
-        }
-
-        .visitor-banner .close-btn {
-            background: none;
-            border: none;
-            color: white;
-            cursor: pointer;
-            font-size: 18px;
-            margin-left: auto;
-            padding: 0 5px;
-        }
-
+        
         @keyframes slideIn {
             from { transform: translateX(100%); opacity: 0; }
             to { transform: translateX(0); opacity: 1; }
@@ -593,7 +568,7 @@
                     <h3>Star Aesthetics</h3>
                     <p>follow us on our social media handle.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-facebook">Sylmply Star</i></a>
                         <a href="#"><i class="fab fa-whatsapp"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-tiktok"></i></a>
